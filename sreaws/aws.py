@@ -2,6 +2,8 @@ import sys
 
 import boto3
 
+from sreaws.errors import errorNotify
+
 
 def bSession(profile=None, region="eu-west-2"):
     try:
